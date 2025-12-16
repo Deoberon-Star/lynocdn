@@ -1,4 +1,4 @@
-# RexxHayanasi CDN
+# LynoCDN
 
 Simple **GitHub-based CDN** menggunakan **Vercel Serverless Functions**.
 
@@ -19,7 +19,7 @@ File di-upload ke GitHub repository lalu diakses melalui URL Vercel dengan cache
 
 ## 📁 Struktur Project
 
-- cdn-rexxhayanasi/
+- lynocdn/
 - api/upload.js
 - api/file/[name].js
 - index.html
@@ -52,9 +52,9 @@ https://namawebvercel.vercel.app/file/1734244234123.jpg
 Set di **Vercel Dashboard → Settings → Environment Variables**
 
 ```env
-GITHUB_TOKEN=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
-GITHUB_OWNER=Deoberon-Star
-GITHUB_REPO=lynocdn
+GITHUB_TOKEN=token
+GITHUB_OWNER=user github
+GITHUB_REPO=repo
 GITHUB_BRANCH=main
 ```
 [!] Peringatan
@@ -122,4 +122,4 @@ Artinya:
 
 MIT License
 
-© 2025 RexxHayanasi | @rexxhayanasi/elaina-baileys
+© 2025 LynoCDN | Bagian dari Lynovra Technologies Solutions
