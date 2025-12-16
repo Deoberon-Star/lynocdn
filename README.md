@@ -122,4 +122,4 @@ Artinya:
 
 MIT License
 
-© 2025 LynoCDN | Bagian dari Lynovra Technologies Solutions
+© 2025 LynoCDN | Bagian dari Lynovra Technology Solutions
