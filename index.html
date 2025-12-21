@@ -1244,7 +1244,7 @@
         showToast("Memulai AI Upscale...", "ai");
 
         // Send to upscale API (using the API we created)
-        const res = await fetch("/api/upload-enhance", {
+        const res = await fetch("/api/upscale", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
