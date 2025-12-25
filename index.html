@@ -2130,7 +2130,7 @@
         showToast("Menganalisis video...", "youtube");
         
         // Kirim request ke API YouTube
-        const response = await fetch("/api/youtube", {
+        const response = await fetch("/api/ytdl", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
